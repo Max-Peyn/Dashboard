@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+:root{
+  --color-mainBack: #F7FAFC;
+  --color-sectionBack: #ffffff;
+  --color-mainBlue: #3182CE;
+  --color-mainText: #2D3748;
+  --color-mainGrey: #F8F9FA;
+  --color-borderGrey: #E2E8F0;
+  --color-greyText: #A0AEC0;
+  --color-greyText2: #718096;
+  --color-greenText: #48BB78;
+  --color-redText: #E53E3E;
+  --color-greyBtn: #CBD5E0;
+  --color-asideBtn: #2D3748;
+  --color-shadow: rgba(0, 0, 0, 0.051);
+  --color-inputBack: #fff;
+  --color-billingBtn: #2D3748;
+  --color-tableHead: #F7FAFC;
+  --color-gradient1: #313860;
+  --color-gradient2: #151928;
+}
+.black{
+  --color-mainBack: #1B254B;
+  --color-sectionBack: #111C44;
+  --color-mainBlue: #3182CE;
+  --color-mainText: #fff;
+  --color-mainGrey: #0B1437;
+  --color-borderGrey: #4A5568;
+  --color-greyText: #A0AEC0;
+  --color-greyText2: #fff;
+  --color-greenText: #48BB78;
+  --color-redText: #E53E3E;
+  --color-asideBtn: #0B1437;
+  --color-greyBtn: #1B254B;
+  --color-shadow: rgba(255, 255, 255, 0.051);
+  --color-inputBack: #0B1437;
+  --color-billingBtn: #3182CE;
+  --color-tableHead: #0B1437;
+  --color-gradient1: #3182CE;
+  --color-gradient2: #63B3ED;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  @apply text-mainText;
+}
+
+.wrapper {
+  @apply bg-mainBack flex px-[20px] pb-[20px] gap-[20px] min-h-[100vh];
+}
+
+
+.section {
+  @apply w-full flex flex-col items-center;
+}
+
+.container {
+  @apply max-w-[1880px] w-full;
+}
+.block{
+  @apply bg-sectionBack rounded-[20px] p-[22px];
+}
+.icon{
+  @apply bg-mainBlue rounded-[8px];
+}
+.absoluteBackground{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: url('../image/Background.png') no-repeat;
+  z-index: -1;
+}
+.absoluteBackground2{
+  @apply fixed lg:top-[24px] lg:bottom-[24px] lg:left-[24px] lg:right-[24px] top-[10px] bottom-[10px] left-[10px] right-[10px];
+  background: url('../image/signImg/CityBack.png') no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+.absoluteBackground3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('../image/signImg/CityFullBack.png') no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.textShadow{
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.lineSection{
+  background: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%);
+}
+.blockShadow{
+  box-shadow: 0px 5px 14px 0px var(--color-shadow);
+}
+.groupContainer{
+  @apply w-full flex items-center gap-[12px] px-[16px] py-[12px] bg-sectionBack transition-shadow rounded-[8px];
+}
+
+.asideActiveBtn{
+  @apply w-full flex items-center gap-[12px] px-[16px] py-[12px] bg-sectionBack transition-shadow rounded-[8px];
+  box-shadow: 0px 5px 14px 0px var(--color-shadow);
+  z-index: 2;
+}
+.asideActiveBtn .group{
+  @apply bg-mainBlue ;
+}
+.asideActiveBtn svg{
+  @apply text-white;
+}
+.asideActiveBtn span{
+  @apply text-mainText;
+}
+
+.card-background{
+  background: url('../image/billingimg/Texture.png'), linear-gradient(81.62deg, var(--color-gradient1) 2.25%, var(--color-gradient2) 79.87%);
+}
+
+.imgBackground1{
+  background: linear-gradient(360deg, rgba(49, 56, 96, 0.16) 0%, rgba(21, 25, 40, 0.88) 100%), url("../image/ProfileImg/PhotoProject.png");
+}
+.imgBackground2{
+  background: linear-gradient(360deg, rgba(49, 56, 96, 0.16) 0%, rgba(21, 25, 40, 0.88) 100%), url("../image/ProfileImg/PhotoProject1.png");
+}
+.imgBackground3{
+  background: linear-gradient(360deg, rgba(49, 56, 96, 0.16) 0%, rgba(21, 25, 40, 0.88) 100%), url("../image/ProfileImg/PhotoProject2.png");
+}
+.active{
+  @apply bg-mainGrey blockShadow;
+}
+
+/* From Uiverse.io by guilhermeyohan */ 
+.checkbox-apple {
+  position: relative;
+  width: 36px;
+  height: 19px;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-apple label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 19px;
+  border-radius: 50px;
+  @apply bg-[#E2E8F0];
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkbox-apple label:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.checkbox-apple #dark-mode + label:after {
+  background: url('../image/sunTexture.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.checkbox-apple input[type="checkbox"]:checked + label {
+  @apply bg-mainBlue;
+}
+.checkbox-apple #dark-mode:checked + label {
+  @apply bg-[#151928];
+}
+
+.checkbox-apple input[type="checkbox"]:checked + label:after {
+  transform: translateX(19px);
+}
+.checkbox-apple #dark-mode:checked + label:after {
+  transform: translateX(19px);
+  background: linear-gradient(0deg, rgba(184, 231, 255, 0.519), rgba(0, 0, 0, 0.366)), url('../image/moonTexture.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.checkbox-apple label:hover {
+  @apply bg-[#E2E8F0];
+}
+
+.checkbox-apple label:hover:after {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.yep {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 19px;
+}
+

@@ -1,0 +1,17 @@
+# Node
+node_modules/
+package-lock.json
+
+# Tailwind
+.tailwind/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

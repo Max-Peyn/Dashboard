@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final-Project</title>
+  <link rel="stylesheet" href="../dist/output.css">
+</head>
+
+<body class="min-w-[320px]">
+  <div class="wrapper relative z-[2]">
+    <div class="absoluteBackground"></div>
+    <div class="2xl:flex hidden flex-col min-h-[100vh] max-w-[265px] w-full pt-[31px]">
+      <aside class="sticky top-[15px] z-10 section blockShadow bg-sectionBack rounded-[20px] pl-[22px] pr-[24px] pt-[30px] pb-[40px]">
+        <div class="container flex flex-col items-center">
+          <div class="flex items-center gap-[11px] mb-[27px]">
+            <div><img id="Argon-Logo" src="./image/Argon.svg" alt="Argon-Logo"></div>
+            <span>|</span>
+            <div><img id="Chakra-Logo" src="./image/Chakra.svg" alt="Chakra-Logo"></div>
+          </div>
+          <div class="lineSection w-full h-[2px]"></div>
+          <div class="flex flex-col w-full mt-[23px] gap-[12px]">
+            <div class="flex flex-col w-full items-center">
+              <a href="index.html" class="groupContainer">
+                <div class="group flex items-center p-[8px] rounded-[8px] transition cursor-pointer">
+                  <svg width="15" height="15" viewBox="0 0 15 16" class="text-mainBlue transition" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2611_6711)">
+                      <path
+                        d="M7.66264 3.46748C7.61903 3.42575 7.56099 3.40247 7.50063 3.40247C7.44027 3.40247 7.38224 3.42575 7.33862 3.46748L1.94507 8.61992C1.92216 8.64183 1.90394 8.66816 1.8915 8.69731C1.87906 8.72647 1.87267 8.75785 1.87271 8.78955L1.87183 13.6253C1.87183 13.8739 1.9706 14.1124 2.14641 14.2882C2.32223 14.464 2.56069 14.5628 2.80933 14.5628H5.62475C5.74907 14.5628 5.8683 14.5134 5.95621 14.4255C6.04412 14.3376 6.0935 14.2184 6.0935 14.094V10.1097C6.0935 10.0475 6.1182 9.98789 6.16215 9.94393C6.2061 9.89998 6.26572 9.87529 6.32788 9.87529H8.67163C8.73379 9.87529 8.7934 9.89998 8.83736 9.94393C8.88131 9.98789 8.906 10.0475 8.906 10.1097V14.094C8.906 14.2184 8.95539 14.3376 9.0433 14.4255C9.1312 14.5134 9.25043 14.5628 9.37475 14.5628H12.189C12.4377 14.5628 12.6761 14.464 12.8519 14.2882C13.0277 14.1124 13.1265 13.8739 13.1265 13.6253V8.78955C13.1265 8.75785 13.1202 8.72647 13.1077 8.69731C13.0953 8.66816 13.0771 8.64183 13.0541 8.61992L7.66264 3.46748Z"
+                        fill="currentColor" />
+                      <path
+                        d="M14.3821 7.65369L12.1907 5.5572V2.37585C12.1907 2.25153 12.1413 2.13231 12.0534 2.0444C11.9655 1.95649 11.8463 1.9071 11.722 1.9071H10.3157C10.1914 1.9071 10.0722 1.95649 9.98427 2.0444C9.89637 2.13231 9.84698 2.25153 9.84698 2.37585V3.31335L8.15011 1.69089C7.99132 1.53035 7.75518 1.43835 7.50001 1.43835C7.24571 1.43835 7.01016 1.53035 6.85138 1.69119L0.619933 7.6531C0.437706 7.82888 0.414855 8.11804 0.580675 8.30847C0.622315 8.35654 0.6733 8.39563 0.730528 8.42337C0.787756 8.4511 0.850029 8.46691 0.913558 8.46981C0.977087 8.47272 1.04054 8.46266 1.10006 8.44026C1.15958 8.41787 1.21392 8.38359 1.25978 8.33953L7.33888 2.53054C7.38249 2.48882 7.44053 2.46553 7.50089 2.46553C7.56125 2.46553 7.61928 2.48882 7.6629 2.53054L13.7426 8.33953C13.8321 8.42541 13.9521 8.47228 14.0762 8.46986C14.2002 8.46745 14.3183 8.41594 14.4044 8.32663C14.5843 8.14031 14.5693 7.83269 14.3821 7.65369Z"
+                        fill="currentColor" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2611_6711">
+                        <rect width="15" height="15" fill="white" transform="translate(-0.000244141 0.5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <span class="text-[12px] text-greyText">Dashboard</span>
+              </a>
+              <a href="tables.html" class="groupContainer asideActiveBtn">
+                <div class="group flex items-center p-[8px] rounded-[8px] transition cursor-pointer">
+                  <svg width="15" height="15" viewBox="0 0 15 16" class="text-mainBlue transition" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2611_6706)">
+                      <path
+                        d="M3.04663 15.0316H2.10913C1.92265 15.0316 1.74381 14.9575 1.61195 14.8256C1.48008 14.6938 1.40601 14.5149 1.40601 14.3284V10.1097C1.40601 9.9232 1.48008 9.74436 1.61195 9.6125C1.74381 9.48063 1.92265 9.40656 2.10913 9.40656H3.04663C3.23311 9.40656 3.41195 9.48063 3.54381 9.6125C3.67568 9.74436 3.74975 9.9232 3.74975 10.1097V14.3284C3.74975 14.5149 3.67568 14.6938 3.54381 14.8256C3.41195 14.9575 3.23311 15.0316 3.04663 15.0316Z"
+                        fill="currentColor" />
+                      <path
+                        d="M9.60913 15.0308H8.67163C8.48515 15.0308 8.30631 14.9567 8.17445 14.8248C8.04259 14.693 7.96851 14.5141 7.96851 14.3276V7.29639C7.96851 7.10991 8.04259 6.93106 8.17445 6.7992C8.30631 6.66734 8.48515 6.59326 8.67163 6.59326H9.60913C9.79561 6.59326 9.97445 6.66734 10.1063 6.7992C10.2382 6.93106 10.3123 7.10991 10.3123 7.29639V14.3276C10.3123 14.5141 10.2382 14.693 10.1063 14.8248C9.97445 14.9567 9.79561 15.0308 9.60913 15.0308Z"
+                        fill="currentColor" />
+                      <path
+                        d="M12.8904 15.0311H11.9529C11.7664 15.0311 11.5876 14.957 11.4557 14.8252C11.3238 14.6933 11.2498 14.5145 11.2498 14.328V4.0155C11.2498 3.82902 11.3238 3.65018 11.4557 3.51832C11.5876 3.38646 11.7664 3.31238 11.9529 3.31238H12.8904C13.0769 3.31238 13.2557 3.38646 13.3876 3.51832C13.5194 3.65018 13.5935 3.82902 13.5935 4.0155V14.328C13.5935 14.5145 13.5194 14.6933 13.3876 14.8252C13.2557 14.957 13.0769 15.0311 12.8904 15.0311Z"
+                        fill="currentColor" />
+                      <path
+                        d="M6.32788 15.0309H5.39038C5.2039 15.0309 5.02506 14.9569 4.8932 14.825C4.76133 14.6931 4.68726 14.5143 4.68726 14.3278V1.67157C4.68726 1.48509 4.76133 1.30625 4.8932 1.17439C5.02506 1.04252 5.2039 0.968445 5.39038 0.968445H6.32788C6.51436 0.968445 6.6932 1.04252 6.82507 1.17439C6.95693 1.30625 7.03101 1.48509 7.03101 1.67157V14.3278C7.03101 14.5143 6.95693 14.6931 6.82507 14.825C6.6932 14.9569 6.51436 15.0309 6.32788 15.0309Z"
+                        fill="currentColor" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2611_6706">
+                        <rect width="15" height="15" fill="white" transform="translate(-0.000244141 0.499939)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <span class="text-[12px] text-greyText">Tables</span>
+              </a>
+              <a href="billing.html" class="groupContainer">
+                <div class="group flex items-center p-[8px] rounded-[8px] transition cursor-pointer">
+                  <svg width="15" height="15" viewBox="0 0 15 16" class="text-mainBlue transition" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2611_6702)">
+                      <path
+                        d="M0.937256 11.5152C0.937256 11.9503 1.11011 12.3676 1.41778 12.6753C1.72546 12.983 2.14276 13.1558 2.57788 13.1558H12.4216C12.8567 13.1558 13.274 12.983 13.5817 12.6753C13.8894 12.3676 14.0623 11.9503 14.0623 11.5152V7.00348H0.937256V11.5152ZM2.87085 9.28864C2.87085 9.05553 2.96345 8.83198 3.12827 8.66715C3.2931 8.50233 3.51665 8.40973 3.74975 8.40973H5.156C5.3891 8.40973 5.61266 8.50233 5.77748 8.66715C5.94231 8.83198 6.03491 9.05553 6.03491 9.28864V9.87457C6.03491 10.1077 5.94231 10.3312 5.77748 10.4961C5.61266 10.6609 5.3891 10.7535 5.156 10.7535H3.74975C3.51665 10.7535 3.2931 10.6609 3.12827 10.4961C2.96345 10.3312 2.87085 10.1077 2.87085 9.87457V9.28864Z"
+                        fill="currentColor" />
+                      <path
+                        d="M12.4216 2.84296H2.57788C2.14276 2.84296 1.72546 3.01581 1.41778 3.32348C1.11011 3.63116 0.937256 4.04846 0.937256 4.48358V5.2453H14.0623V4.48358C14.0623 4.04846 13.8894 3.63116 13.5817 3.32348C13.274 3.01581 12.8567 2.84296 12.4216 2.84296Z"
+                        fill="currentColor" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2611_6702">
+                        <rect width="15" height="15" fill="white" transform="translate(-0.000244141 0.5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <span class="text-[12px] text-greyText">Billing</span>
+              </a>
+              <a href="#" class="groupContainer">
+                <div class="group flex items-center p-[8px] rounded-[8px] transition cursor-pointer">
+                  <svg width="15" height="15" viewBox="0 0 16 16" class="text-mainBlue transition" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M14.2568 4.03136C14.2231 3.96571 14.1743 3.90896 14.1144 3.86574C14.0546 3.82251 13.9854 3.79403 13.9125 3.7826C13.8395 3.77118 13.7649 3.77715 13.6948 3.80001C13.6246 3.82287 13.5608 3.86199 13.5086 3.91417L11.7086 5.71534C11.6202 5.80242 11.5011 5.85123 11.3771 5.85123C11.253 5.85123 11.1339 5.80242 11.0456 5.71534L10.2675 4.93604C10.2239 4.89252 10.1894 4.84084 10.1658 4.78396C10.1422 4.72708 10.1301 4.66612 10.1301 4.60455C10.1301 4.54298 10.1422 4.48202 10.1658 4.42514C10.1894 4.36826 10.2239 4.31659 10.2675 4.27306L12.0598 2.48038C12.1136 2.42666 12.1534 2.36068 12.176 2.28812C12.1986 2.21557 12.2032 2.13861 12.1894 2.06389C12.1756 1.98917 12.1439 1.91892 12.0969 1.85918C12.0499 1.79945 11.9892 1.75203 11.9198 1.72101C10.566 1.11573 8.87614 1.43155 7.81062 2.48917C6.90534 3.388 6.63552 4.79249 7.07087 6.34259C7.09434 6.42525 7.09448 6.51279 7.07126 6.59553C7.04804 6.67826 7.00238 6.75296 6.93933 6.81134L2.06199 11.2659C1.87198 11.4365 1.71872 11.644 1.61155 11.8758C1.50439 12.1076 1.44557 12.3588 1.43867 12.614C1.43178 12.8693 1.47696 13.1233 1.57146 13.3605C1.66597 13.5978 1.8078 13.8132 1.98833 13.9938C2.16885 14.1745 2.38428 14.3164 2.62146 14.411C2.85865 14.5056 3.11262 14.5509 3.36788 14.5441C3.62315 14.5373 3.87436 14.4786 4.10619 14.3716C4.33801 14.2645 4.5456 14.1113 4.71628 13.9214L9.21863 9.03321C9.27617 8.97097 9.3496 8.92561 9.43101 8.90202C9.51243 8.87843 9.59873 8.87749 9.68064 8.89932C10.1219 9.02024 10.5772 9.08298 11.0347 9.08595C12.0133 9.08595 12.8719 8.76925 13.4913 8.15899C14.6383 7.02901 14.8132 5.11241 14.2568 4.03136ZM3.41521 13.6006C3.22226 13.6217 3.02753 13.5823 2.85789 13.488C2.68826 13.3937 2.55208 13.249 2.46815 13.074C2.38423 12.899 2.35669 12.7022 2.38934 12.5109C2.422 12.3196 2.51323 12.1431 2.65045 12.0058C2.78768 11.8686 2.96412 11.7773 3.15544 11.7445C3.34676 11.7118 3.54351 11.7393 3.71856 11.8232C3.8936 11.907 4.0383 12.0431 4.13268 12.2128C4.22706 12.3824 4.26648 12.5771 4.24548 12.77C4.22238 12.9823 4.12749 13.1804 3.97651 13.3314C3.82553 13.4825 3.62751 13.5774 3.41521 13.6006Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <span class="text-[12px] text-greyText">RTL</span>
+              </a>
+            </div>
+            <span class="pl-[16px] text-[12px]">ACCOUNT PAGES</span>
+            <div class="flex flex-col w-full items-center">
+              <a href="profile.html" class="groupContainer">
+                <div class="group flex items-center p-[8px] rounded-[8px] transition cursor-pointer">
+                  <svg width="15" height="15" viewBox="0 0 12 13" class="text-mainBlue transition" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M7.79627 2.01341C7.34018 1.52099 6.70315 1.24982 6.00002 1.24982C5.29315 1.24982 4.65401 1.51935 4.20002 2.00872C3.74112 2.50349 3.51752 3.17591 3.57002 3.902C3.67409 5.3345 4.76416 6.49981 6.00002 6.49981C7.23588 6.49981 8.32408 5.33474 8.42979 3.90247C8.48299 3.18294 8.25799 2.51193 7.79627 2.01341Z"
+                      fill="currentColor" />
+                    <path
+                      d="M10.1249 11.7493H1.87489C1.7669 11.7507 1.65996 11.728 1.56185 11.6829C1.46374 11.6377 1.37691 11.5713 1.3077 11.4884C1.15536 11.3063 1.09395 11.0576 1.13942 10.8061C1.33723 9.7088 1.95458 8.787 2.92489 8.13989C3.78692 7.56544 4.87887 7.24927 5.99989 7.24927C7.1209 7.24927 8.21285 7.56567 9.07488 8.13989C10.0452 8.78677 10.6625 9.70856 10.8604 10.8059C10.9058 11.0574 10.8444 11.3061 10.6921 11.4882C10.6229 11.5711 10.5361 11.6376 10.438 11.6828C10.3398 11.7279 10.2329 11.7506 10.1249 11.7493V11.7493Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <span class="text-[12px] text-greyText">Profile</span>
+              </a>
+              <a href="signIn.html" class="groupContainer">
+                <div class="group flex items-center p-[8px] rounded-[8px] transition cursor-pointer">
+                  <svg width="15" height="15" viewBox="0 0 15 16" class="text-mainBlue transition" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.5388 7.06262H8.43726C8.06429 7.06262 7.70661 6.91446 7.44289 6.65074C7.17916 6.38702 7.03101 6.02933 7.03101 5.65637V1.55481C7.03101 1.52373 7.01866 1.49392 6.99668 1.47195C6.97471 1.44997 6.9449 1.43762 6.91382 1.43762H4.21851C3.72122 1.43762 3.24431 1.63517 2.89268 1.9868C2.54105 2.33843 2.34351 2.81534 2.34351 3.31262V12.6876C2.34351 13.1849 2.54105 13.6618 2.89268 14.0134C3.24431 14.3651 3.72122 14.5626 4.21851 14.5626H10.781C11.2783 14.5626 11.7552 14.3651 12.1068 14.0134C12.4585 13.6618 12.656 13.1849 12.656 12.6876V7.17981C12.656 7.14873 12.6437 7.11892 12.6217 7.09694C12.5997 7.07497 12.5699 7.06262 12.5388 7.06262Z"
+                      fill="currentColor" />
+                    <path
+                      d="M12.2816 6.02594L8.06841 1.81275C8.06021 1.80461 8.0498 1.79907 8.03846 1.79683C8.02713 1.79459 8.01539 1.79575 8.00471 1.80016C7.99403 1.80458 7.9849 1.81205 7.97846 1.82164C7.97202 1.83123 7.96855 1.84251 7.96851 1.85406V5.65709C7.96851 5.78141 8.01789 5.90064 8.1058 5.98855C8.19371 6.07646 8.31294 6.12584 8.43726 6.12584H12.2403C12.2518 6.12579 12.2631 6.12233 12.2727 6.11589C12.2823 6.10945 12.2898 6.10031 12.2942 6.08964C12.2986 6.07896 12.2998 6.06722 12.2975 6.05588C12.2953 6.04455 12.2897 6.03413 12.2816 6.02594Z"
+                      fill="currentColor" />
+                  </svg>
+                </div>
+                <span class="text-[12px] text-greyText">Sign In</span>
+              </a>
+              <a href="signUp.html" class="groupContainer">
+                <div class="group flex items-center p-[8px] rounded-[8px] transition cursor-pointer">
+                  <svg width="15" height="16" viewBox="0 0 15 16" class="text-mainBlue transition" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2611_6685)">
+                      <path
+                        d="M13.9933 1.62154C13.9879 1.59562 13.9753 1.57178 13.9569 1.55278C13.9384 1.53379 13.915 1.52045 13.8892 1.51431C12.1733 1.09478 8.20859 2.5898 6.06054 4.73696C5.67742 5.11699 5.32815 5.52968 5.0167 5.97036C4.35429 5.91177 3.69189 5.96069 3.12734 6.20679C1.53447 6.90786 1.0707 8.73716 0.941501 9.52407C0.934173 9.56714 0.936937 9.61133 0.949577 9.65315C0.962216 9.69497 0.984386 9.73329 1.01434 9.76509C1.0443 9.79689 1.08123 9.82131 1.12222 9.83643C1.16321 9.85154 1.20715 9.85694 1.25058 9.8522L3.80849 9.57007C3.81032 9.76292 3.82196 9.95555 3.84336 10.1472C3.85623 10.2803 3.91531 10.4047 4.01035 10.4988L5.00087 11.487C5.09503 11.5819 5.21938 11.6409 5.35244 11.654C5.54303 11.6753 5.73459 11.6869 5.92636 11.6888L5.6457 14.2435C5.64102 14.2869 5.64646 14.3308 5.66159 14.3718C5.67673 14.4128 5.70115 14.4497 5.73294 14.4796C5.76472 14.5095 5.80302 14.5317 5.84481 14.5444C5.8866 14.557 5.93076 14.5598 5.97382 14.5526C6.75927 14.4266 8.59179 13.9628 9.28876 12.37C9.53486 11.8054 9.58525 11.1462 9.52841 10.4871C9.97016 10.1756 10.3839 9.82622 10.765 9.44292C12.9198 7.29897 14.4063 3.42271 13.9933 1.62154ZM8.61523 6.8853C8.41847 6.68867 8.28445 6.4381 8.23011 6.16529C8.17578 5.89248 8.20357 5.60968 8.30998 5.35267C8.41639 5.09566 8.59663 4.87598 8.8279 4.72142C9.05918 4.56686 9.3311 4.48436 9.60927 4.48436C9.88744 4.48436 10.1594 4.56686 10.3906 4.72142C10.6219 4.87598 10.8022 5.09566 10.9086 5.35267C11.015 5.60968 11.0428 5.89248 10.9884 6.16529C10.9341 6.4381 10.8001 6.68867 10.6033 6.8853C10.4728 7.01596 10.3179 7.11962 10.1473 7.19034C9.97676 7.26106 9.79392 7.29746 9.60927 7.29746C9.42462 7.29746 9.24179 7.26106 9.07122 7.19034C8.90065 7.11962 8.7457 7.01596 8.61523 6.8853Z"
+                        fill="currentColor" />
+                      <path
+                        d="M4.93335 12.2028C4.7728 12.3636 4.51528 12.4263 4.20532 12.4799C3.50893 12.5986 2.89399 11.9968 3.01909 11.2928C3.06685 11.0259 3.20806 10.6518 3.29595 10.5639C3.31516 10.5451 3.32794 10.5207 3.33249 10.4941C3.33704 10.4676 3.33311 10.4403 3.32128 10.4162C3.30944 10.392 3.29029 10.3722 3.26654 10.3595C3.2428 10.3469 3.21567 10.342 3.18901 10.3457C2.79959 10.3933 2.4373 10.5699 2.15981 10.8472C1.47104 11.5366 1.40601 14.0945 1.40601 14.0945C1.40601 14.0945 3.96538 14.0294 4.65415 13.3401C4.93237 13.0628 5.10915 12.7 5.156 12.31C5.16684 12.1875 5.01772 12.1146 4.93335 12.2028Z"
+                        fill="currentColor" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2611_6685">
+                        <rect width="15" height="15" fill="white" transform="translate(-0.000244141 0.5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <span class="text-[12px] text-greyText">Sign Up</span>
+              </a>
+            </div>
+          </div>
+          <div class="w-full flex flex-col items-center mt-[50px]">
+            <div class="w-[165px] h-[117px]"><img src="./image/icons/icon-documentation.svg" alt="Document"></div>
+            <div class=" flex flex-col text-center">
+              <span class="text-[14px]">Need help?</span>
+              <span class="font-[400] text-[12px] text-greyText2">Please check our docs</span>
+            </div>
+            <div><button type="button"
+                class="text-[10px] text-white py-[10px] px-[50px] icon mt-[20px] hover:bg-[#256097]">DOCUMENTATION</button></div>
+          </div>
+          <div><button type="button"
+              class="text-[10px] text-white py-[10px] px-[50px] bg-asideBtn hover:bg-black rounded-[8px] mt-[20px]">UPGRADE TO
+              PRO</button></div>
+        </div>
+      </aside>
+    </div>
+    <div class="flex flex-col min-h-[100vh] min-w-[320px] w-full">
+      <header class="section py-[42px]">
+        <div class="container">
+          <div class="w-full max-w-[1583px] flex items-end justify-between">
+            <div class="flex items-center gap-[10px]">
+              <span class="text-white">Tables</span>
+              <div class="checkbox-apple">
+                <input class="yep" id="dark-mode" type="checkbox">
+                <label for="dark-mode"></label>
+              </div>
+            </div>
+            <div class="flex items-center gap-[18px]">
+              <div class="max-w-[199px] relative">
+                <form action="#">
+                  <input
+                    class="w-full py-[11px] pr-[14px] pl-[38px] bg-sectionBack rounded-[8px] text-mainText text-[12px] font-[400]"
+                    type="text" placeholder="Type here...">
+                </form>
+                <button class="w-[15px] h-[15px] absolute top-[50%] left-[15px] translate-y-[-50%]" type="submit">
+                  <svg width="13" height="13" viewBox="0 0 13 13" fill="currentColor" class="text-mainText" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12.6295 11.5958L9.87292 8.83929C10.5366 7.9558 10.8948 6.88041 10.8936 5.77542C10.8936 2.95297 8.59734 0.656677 5.77488 0.656677C2.95242 0.656677 0.656128 2.95297 0.656128 5.77542C0.656128 8.59788 2.95242 10.8942 5.77488 10.8942C6.87986 10.8954 7.95525 10.5371 8.83874 9.87347L11.5953 12.63C11.7348 12.7547 11.9168 12.8213 12.1039 12.8161C12.291 12.8109 12.469 12.7342 12.6013 12.6019C12.7336 12.4695 12.8103 12.2915 12.8155 12.1044C12.8208 11.9174 12.7542 11.7354 12.6295 11.5958ZM2.11863 5.77542C2.11863 5.05229 2.33306 4.34539 2.73482 3.74412C3.13657 3.14286 3.7076 2.67422 4.37569 2.39749C5.04378 2.12076 5.77893 2.04835 6.48817 2.18943C7.19742 2.33051 7.8489 2.67873 8.36023 3.19007C8.87157 3.7014 9.21979 4.35288 9.36087 5.06213C9.50195 5.77137 9.42954 6.50652 9.15281 7.17461C8.87608 7.8427 8.40745 8.41373 7.80618 8.81548C7.20491 9.21724 6.49801 9.43167 5.77488 9.43167C4.80554 9.43051 3.87623 9.04493 3.1908 8.3595C2.50537 7.67407 2.11979 6.74477 2.11863 5.77542Z"
+                      fill="currentColor" />
+                  </svg>
+                </button>
+              </div>
+              <a href="signIn.html" class="flex items-center gap-[4px]">
+                <img src="./image/icons/Person.svg" alt="Person">
+                <span class="text-white text-[12px]">Sign In</span>
+              </a>
+              <div class="max-w-[15px] max-h-[15px] 2xl:hidden">
+                <img class="w-full h-full" src="./image/icons/burger-menu.svg" alt="menu">
+              </div>
+              <div>
+                <img src="./image/icons/Setting.svg" alt="Setting">
+              </div>
+              <div>
+                <img src="./image/icons/Notification.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="flex flex-col gap-[20px]">
+        <section class="section">
+          <div class="container flex gap-[20px]">
+            <div class="flex flex-col blockShadow bg-sectionBack px-[21px] rounded-[20px] max-w-[1595px] w-full">
+              <div class="flex justify-between items-center">
+                <div class="pt-[28px] pb-[24px]">
+                  <p class="text-[18px]">Authors Table</p>
+                </div>
+              </div>
+
+              <div class="overflow-x-auto xl:overflow-x-hidden">
+                <table class="table-fixed w-full">
+                  <thead class="text-greyText text-[10px]">
+                    <tr>
+                      <th class="text-start min-w-[667px] w-[333px] pb-[16px] pr-[25px] font-[700]">AUTHOR</th>
+                      <th class="text-start min-w-[215px] w-[107px] pb-[16px] pr-[25px] font-[700]">FUNCTION</th>
+                      <th class="text-center min-w-[189px] w-[95px] pb-[16px] pr-[25px] font-[700]">STATUS</th>
+                      <th class="text-center min-w-[265px] w-[132px] pb-[16px] pr-[25px] font-[700]">EMPLOYED</th>
+                      <th class="min-w-[100px] w-[70px] pb-[16px] pr-[25px]"></th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-greyText2 text-[14px]">
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px]">
+                        <div class="flex gap-[15px]">
+                          <div class="w-[40px] h-[40px] overflow-hidden rounded-[8px]"><img
+                              class="w-full h-full object-center object-cover"
+                              src="./image/Table img/EstheraJackson.jpg" alt="authors"></div>
+                          <div class="flex flex-col">
+                            <p class="text-mainText">Esthera Jackson</p>
+                            <span class="font-[400]">esthera@simmmple.com</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div class="flex flex-col">
+                          <p class="font-[700]">Manager</p>
+                          <span class="font-[400]">Organization</span>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div><button
+                            class="font-[700] text-white py-[3px] px-[11px] bg-greenText rounded-[6px]">Online</button>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[700]">14/06/21</td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[700]">Edit</td>
+                    </tr>
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px]">
+                        <div class="flex gap-[15px]">
+                          <div class="w-[40px] h-[40px] overflow-hidden rounded-[8px]"><img
+                              class="w-full h-full object-center object-cover" src="./image/Table img/AlexaLiras.jpg"
+                              alt="authors"></div>
+                          <div class="flex flex-col">
+                            <p class="text-mainText">Alexa Liras</p>
+                            <span class="font-[400]">alexa@simmmple.com</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div class="flex flex-col">
+                          <p class="font-[700]">Programmer</p>
+                          <span class="font-[400]">Developer</span>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div><button
+                            class="font-[700] text-white py-[3px] px-[11px] bg-greyBtn rounded-[6px]">Offline</button>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[700]">14/06/21</td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[700]">Edit</td>
+                    </tr>
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px]">
+                        <div class="flex gap-[15px]">
+                          <div class="w-[40px] h-[40px] overflow-hidden rounded-[8px]"><img
+                              class="w-full h-full object-center object-cover"
+                              src="./image/Table img/LaurentMichael.webp" alt="authors"></div>
+                          <div class="flex flex-col">
+                            <p class="text-mainText">Laurent Michael</p>
+                            <span class="font-[400]">laurent@simmmple.com</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div class="flex flex-col">
+                          <p class="font-[700]">Executive</p>
+                          <span class="font-[400]">Projects</span>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div><button
+                            class="font-[700] text-white py-[3px] px-[11px] bg-greenText rounded-[6px]">Online</button>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[700]">14/06/21</td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[700]">Edit</td>
+                    </tr>
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px]">
+                        <div class="flex gap-[15px]">
+                          <div class="w-[40px] h-[40px] overflow-hidden rounded-[8px]"><img
+                              class="w-full h-full object-center object-cover" src="./image/Table img/FreduardoHill.jpg"
+                              alt="authors"></div>
+                          <div class="flex flex-col">
+                            <p class="text-mainText">Freduardo Hill</p>
+                            <span class="font-[400]">freduardo@simmmple.com</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div class="flex flex-col">
+                          <p class="font-[700]">Manager</p>
+                          <span class="font-[400]">Organization</span>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div><button
+                            class="font-[700] text-white py-[3px] px-[11px] bg-greenText rounded-[6px]">Online</button>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[700]">14/06/21</td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[700]">Edit</td>
+                    </tr>
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px]">
+                        <div class="flex gap-[15px]">
+                          <div class="w-[40px] h-[40px] overflow-hidden rounded-[8px]"><img
+                              class="w-full h-full object-center object-cover scale-150 translate-y-[10px]"
+                              src="./image/Table img/DanielThomas.jpg" alt="authors"></div>
+                          <div class="flex flex-col">
+                            <p class="text-mainText">Daniel Thomas</p>
+                            <span class="font-[400]">daniel@simmmple.com</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div class="flex flex-col">
+                          <p class="font-[700]">Programmer</p>
+                          <span class="font-[400]">Developer</span>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div><button
+                            class="font-[700] text-white py-[3px] px-[11px] bg-greyBtn rounded-[6px]">Offline</button>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[700]">14/06/21</td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[700]">Edit</td>
+                    </tr>
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px]">
+                        <div class="flex gap-[15px]">
+                          <div class="w-[40px] h-[40px] overflow-hidden rounded-[8px]"><img
+                              class="w-full h-full object-center object-cover" src="./image/Table img/MarkWilson.jpg"
+                              alt="authors"></div>
+                          <div class="flex flex-col">
+                            <p class="text-mainText">Mark Wilson</p>
+                            <span class="font-[400]">mark@simmmple.com</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div class="flex flex-col">
+                          <p class="font-[700]">Designer</p>
+                          <span class="font-[400]">UI/UX Design</span>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[400]">
+                        <div><button
+                            class="font-[700] text-white py-[3px] px-[11px] bg-greyBtn rounded-[6px]">Offline</button>
+                        </div>
+                      </td>
+                      <td class="text-center pt-[14px] pb-[16px] pr-[25px] font-[700]">14/06/21</td>
+                      <td class="text-start pt-[14px] pb-[16px] pr-[25px] font-[700]">Edit</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container">
+            <div class="flex flex-col blockShadow bg-sectionBack px-[31px] rounded-[20px] w-full">
+              <div class="flex justify-between items-center">
+                <div class="flex flex-col pt-[23px] pb-[29px]">
+                  <p class="text-[18px]">Projects</p>
+                  <div class="flex gap-[3px] text-greyText font-[400]">
+                    <img src="./image/icons/circle.svg" alt="success">
+                    <span><span class="font-[700]">30 done</span> this month</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="overflow-x-auto">
+                <table class="table-fixed w-full">
+                  <thead class="text-greyText text-[10px]">
+                    <tr>
+                      <th class="text-left w-[475px] pr-[16px] pb-[16px]">COMPANIES</th>
+                      <th class="text-left w-[118px] pr-[16px] pb-[16px]">BUDGET</th>
+                      <th class="text-center w-[237px] pr-[16px] pb-[16px]">STATUS</th>
+                      <th class="text-left w-[148px] pr-[16px] pb-[16px]">COMPLETION</th>
+                      <th class="w-[66px] pr-[16px] pb-[16px]"></th>
+                    </tr>
+                  </thead>
+                  <tbody class="text-greyText2 text-[14px]">
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="pr-[16px] py-[20px]">
+                        <div class="flex gap-[17px] items-center">
+                          <img src="./image/Table img/table svg/Xd.svg" alt="xd">
+                          <span class="text-mainText">Chakra Soft UI Version</span>
+                        </div>
+                      </td>
+                      <td class="pr-[16px] py-[20px] text-left">$14,000</td>
+                      <td class="pr-[16px] py-[20px] text-center">Working</td>
+                      <td class="pr-[16px] py-[20px] text-mainBlue">
+                        60%
+                        <div class="w-full h-[3px] bg-borderGrey rounded-[4px] overflow-hidden">
+                          <div class="h-[3px] w-[60%] bg-mainBlue"></div>
+                        </div>
+                      </td>
+                      <td class="p-[16px]">
+                        <div class="flex justify-center">
+                          <img src="./image/Table img/table svg/Threedots.svg" alt="">
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="pr-[16px] py-[20px]">
+                        <div class="flex gap-[17px] items-center">
+                          <img src="./image/Table img/table svg/ProgressTrack.svg" alt="progress track">
+                          <span class="text-mainText">Add Progress Track</span>
+                        </div>
+                      </td>
+                      <td class="pr-[16px] py-[16px] text-left">$3,000</td>
+                      <td class="pr-[16px] py-[16px] text-center">Canceled</td>
+                      <td class="pr-[16px] py-[16px] text-mainBlue">
+                        10%
+                        <div class="w-full h-[3px] bg-borderGrey rounded-[4px] overflow-hidden">
+                          <div class="h-[3px] w-[10%] bg-mainBlue"></div>
+                        </div>
+                      </td>
+                      <td class="p-[16px]">
+                        <div class="flex justify-center">
+                          <img src="./image/Table img/table svg/Threedots.svg" alt="">
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="pr-[16px] py-[20px]">
+                        <div class="flex gap-[17px] items-center">
+                          <img src="./image/Table img/table svg/FixPlatform.svg" alt="Fix Platform">
+                          <span class="text-mainText">Fix Platform Errors</span>
+                        </div>
+                      </td>
+                      <td class="pr-[16px] py-[16px] text-left">No set</td>
+                      <td class="pr-[16px] py-[16px] text-center">Done</td>
+                      <td class="pr-[16px] py-[16px] text-mainBlue">
+                        100%
+                        <div class="w-full h-[3px] bg-borderGrey rounded-[4px] overflow-hidden">
+                          <div class="h-[3px] w-full bg-mainBlue"></div>
+                        </div>
+                      </td>
+                      <td class="p-[16px]">
+                        <div class="flex justify-center">
+                          <img src="./image/Table img/table svg/Threedots.svg" alt="">
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="pr-[16px] py-[20px]">
+                        <div class="flex gap-[17px] items-center">
+                          <img src="./image/Table img/table svg/Spotify.svg" alt="Spotify">
+                          <span class="text-mainText">Launch our Mobile App</span>
+                        </div>
+                      </td>
+                      <td class="pr-[16px] py-[16px] text-left">$32,000</td>
+                      <td class="pr-[16px] py-[16px] text-center">Done</td>
+                      <td class="pr-[16px] py-[16px] font-bold text-mainBlue">
+                        100%
+                        <div class="w-full h-[3px] bg-borderGrey rounded-[4px] overflow-hidden">
+                          <div class="h-[3px] w-full bg-mainBlue"></div>
+                        </div>
+                      </td>
+                      <td class="p-[16px]">
+                        <div class="flex justify-center">
+                          <img src="./image/Table img/table svg/Threedots.svg" alt="">
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr class="border-t-[1px] border-borderGrey">
+                      <td class="pr-[16px] py-[20px]">
+                        <div class="flex gap-[17px] items-center">
+                          <img src="./image/Table img/table svg/Pricing.svg" alt="Pricing">
+                          <span class="text-mainText">Add the New Pricing Page</span>
+                        </div>
+                      </td>
+                      <td class="pr-[16px] py-[16px] text-left">$400</td>
+                      <td class="pr-[16px] py-[16px] text-center">Working</td>
+                      <td class="pr-[16px] py-[16px] font-bold text-mainBlue">
+                        25%
+                        <div class="w-full h-[3px] bg-borderGrey rounded-[4px] overflow-hidden">
+                          <div class="h-[3px] w-[25%] bg-mainBlue"></div>
+                        </div>
+                      </td>
+                      <td class="p-[16px]">
+                        <div class="flex justify-center">
+                          <img src="./image/Table img/table svg/Threedots.svg" alt="">
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="section pt-[20px]">
+          <div class="container">
+            <div
+              class="flex md:flex-row flex-col md:justify-between gap-[20px] items-center text-greyText text-[12px] font-[400]">
+              <div>
+                <span>@ 2021, Made with ❤️ by <a class="text-mainBlue font-[700]" href="#">Creative Tim</a> & <a
+                    class="text-mainBlue font-[700]" href="#">Simmmple</a> for a better web</span>
+              </div>
+              <nav class="flex gap-[44px]">
+                <a href="#">Creative Tim</a>
+                <a href="#">Simmmple</a>
+                <a href="#">Blog</a>
+                <a href="#">License</a>
+              </nav>
+            </div>
+          </div>
+        </footer>
+    </div>
+  </div>
+  <script src="./scripts/dark-mode.js"></script>
+
+</body>
+
+</html>
